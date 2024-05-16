@@ -216,7 +216,7 @@ document.addEventListener('alpine:init', () => {
             }
           })
           .catch(function (error) {
-            error.value = error;
+            errorInput.value = error;
             registerForm.submit();
           });
       },
